@@ -37,4 +37,10 @@ public class Indirizzo {
 		this.numeroCivicoIndirizzo = numeroCivicoIndirizzo;
 	}
 	
+	public String stampaIndirizzo() {
+		
+		return cittaIndirizzo + " " + viaIndirizzo + " numero " + numeroCivicoIndirizzo;
+		
+	}
+	
 }
